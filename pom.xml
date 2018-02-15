@@ -1,0 +1,6 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cg.jenkins.test.app</groupId>
+    <artifactId>test-jenkins</artifactId>
+    <version>1</version>
+</project>
