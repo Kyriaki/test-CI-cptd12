@@ -4,3 +4,26 @@
     <artifactId>test-jenkins</artifactId>
     <version>1</version>
 </project>
+<build>
+    <sourceDirectory>src</sourceDirectory>
+    <resources>
+        <resource>
+            <directory>${basedir}/src</directory>
+            <includes>
+                <include>**/*.xml</include>
+            </includes>
+        </resource>
+    </resources>
+    <plugins>
+        <plugin>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <debug>true</debug>
+                <optimize>false</optimize>
+                <showDeprecation>true</showDeprecation>
+                <source>1.5</source>
+                <target>1.5</target>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
