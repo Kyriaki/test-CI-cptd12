@@ -1,0 +1,16 @@
+    1  javaw test-jenkins-1.jar 
+    2  java hw
+    3  java -jar test-jenkins-1.jar hw
+    4  java -jar test-jenkins-1.jar 
+    5  javac -jar test-jenkins-1.jar 
+    6  java -jar test-jenkins-1.jar 
+    7  java -jar test-jenkins-1.jar cg.jenkins.app.hw
+    8  CLASSPATH
+    9  $CLASSPATH
+   10  java -classpath "C:\Program Files (x86)\Jenkins\workspace\test-jenkins-hw\target\classes" cg.jenkins.app
+   11  java -classpath "C:\Program Files (x86)\Jenkins\workspace\test-jenkins-hw\target\classes" cg.jenkins.app.hw
+   12  java -classpath "C:\Program Files (x86)\Jenkins\workspace\test-jenkins-hw\target\classes"
+   13  java -classpath "C:\Program Files (x86)\Jenkins\workspace\test-jenkins-hw\target\classes" hw
+   14  history > javacmd.txt
+   15  history > ~/IdeaProjects/testCI/ javacmd.txt
+   16  history > ~/IdeaProjects/testCI/javacmd.txt
