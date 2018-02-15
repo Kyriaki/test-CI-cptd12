@@ -32,8 +32,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <addClasspath>true</addClasspath>
-                            <classpathPrefix>lib/</classpathPrefix>
+                            <addClasspath>false</addClasspath>
                             <mainClass>cg.jenkins.app.hw</mainClass>
                         </manifest>
                     </archive>
